@@ -1,0 +1,276 @@
+@media screen and (max-width:1920px){}
+@media screen and (max-width:1200px){
+    /* MAIN */
+    .container{
+        width: 900px;
+    }
+    .artist_info p{
+        line-height: 17px;
+    }
+        /* SECTION */
+
+        .buy_tikets > p::after{
+            margin-left: 15px;
+        }
+        .buy_tikets button{
+            width: 160px;
+            font-size: 13px;
+        }
+    
+        .section_photo p:first-child::first-line {
+            font-size:35px;
+        }
+        .section_photo p:nth-child(3)::first-line{
+            font-size: 15px;
+        }
+}
+@media screen and (max-width:992px){
+
+    /* HEADER */
+
+    .head_container{
+        display: none;
+    }
+    .head_container_mobile{
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+        background-color: rgba(4, 0, 42, 0.9);
+    }
+    .mobile_navigation{
+        display: none;
+    }
+    .mobile_navigation_visible{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .mobile_navigation_visible ul{
+        display: flex;
+        cursor: pointer;
+    }
+
+    /* MAIN */
+    .container{
+        width: 700px;
+    }
+    .artist_info{
+        flex-direction: column;
+    }
+    .artist_info p{
+        line-height: 30px;
+    }
+
+    /* SECTION */
+
+    .buy_tikets > p::after{
+        margin-left: 15px;
+    }
+    .buy_tikets button{
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .section_photo p:first-child::first-line {
+        font-size:30px;
+    }
+    .section_photo p:nth-child(3)::first-line{
+        font-size: 13px;
+    }
+
+    /* FOOTER */
+    .footer_container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 65px;
+    }
+    .lists ul:nth-child(4){
+        display: none;
+    }
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form button{
+        font-weight: bold;
+        transition: .3s;
+        cursor:pointer;
+        border:none;
+        background-image: repeating-linear-gradient(red , purple);
+        font-size: 14px;
+        width: 110px;
+        height: 35px;
+    }
+    form input{
+        height: 35px;
+    }
+}
+@media screen and (max-width:768px){
+        /* MAIN */
+        .container{
+            width: 540px;
+        }
+
+        .artist_info p{
+            line-height: 30px;
+        }
+        .main_photo{
+            width: 90%;
+        }
+        .main_photo img{
+            width: 100%;
+        }
+
+        /* SECTION */
+
+        .upcoming_shows{
+            display: none;
+        }
+        .upcoming_shows_mobile{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            border-bottom:1px solid grey;
+            padding-bottom: 20px;
+            padding-top: 5
+            0px;
+        }
+        .upcoming_shows_mobile > p{
+            color: #C5AFD9;
+        }
+        .upcoming_shows_mobile h2{
+            font-size: 20px;
+        }
+        .upcoming_shows_mobile h2:first-line{
+            font-size: 35px;
+        }
+        .buy_tikets_mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 15px;
+            margin-top: 40px;
+        }
+        .buy_tikets_mobile p:nth-child(1):first-line{
+            font-size:35px;
+            font-weight: bolder;
+        }
+        .buy_tikets_mobile p:nth-child(3)::after{
+            margin-left: 160px;
+            content:'20:30';
+            font-size: 20px;
+        }
+        .section_photo_mobile{
+            align-self: flex-start;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .upcoming_shows_mobile button{
+            width: 100%;
+            height: 50px;
+            font-size:13px;
+            background-image:linear-gradient(rgb(182, 113, 125),rgb(69, 0, 69));
+            border: none;
+            transition: .3s;
+        }
+        .upcoming_shows_mobile button:hover{
+            transform: translate();
+            box-shadow: 0px 0px 57px 12px rgba(151,170,227,0.75);
+        }
+
+        /* SECTION 2 */
+        .featured_photo{
+            display:none;
+        }
+        .audio{
+            width: 100%;
+        }
+        .itunes button{
+            width: 110px;
+            height: 30px;
+            font-size: 10px;
+            padding: 5px;
+        }
+        .itunes{
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+            /* MUSIC / ARTISTS */
+        .container_{
+            flex-direction: column;
+        }
+}
+@media screen and (max-width:570px){
+    /* HEADER */
+    .mobile_navigation_visible ul{
+        display: block;
+        align-self: flex-start;
+    }
+    .mobile_navigation_visible ul li a{
+        font-size:13px;
+    }
+    .social_mobile i{
+        height: 15px;
+        width: 15px;
+    }
+
+    /* MAIN */
+    .container{
+        width:90%;
+    }
+
+    .artist_info p{
+        line-height: 30px;
+    }
+    .main_photo{
+        width: 60%;
+    }
+    .main_photo img{
+        width: 100%;
+    }
+
+           /* SECTION */
+
+        .upcoming_shows_mobile h2{
+            font-size: 10px;
+        }
+        .upcoming_shows_mobile h2:first-line{
+            font-size: 20px;
+        }
+        .buy_tikets_mobile p:nth-child(1):first-line{
+            font-size:30px;
+        }
+        .buy_tikets_mobile p:nth-child(3)::after{
+            content:'20:30';
+            font-size: 13px;
+        }
+        .buy_tikets_mobile:nth-child(3){
+            font-size: 15px;
+        }
+        .upcoming_shows_mobile button{
+            font-size:13px;
+        }
+        .section_photo_mobile p{
+            font-size: 13px;
+        }
+    }

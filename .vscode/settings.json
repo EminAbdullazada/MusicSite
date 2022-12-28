@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": -1,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.inlayHints.fontFamily": "Fira Code",
+    "editor.fontFamily": "Fira Code , Poppi",
+    "editor.fontLigatures": true,
+}

@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(red , purple);
+    border-radius:5px;
+}
+.wrapper{
+    background-image: url(../Assets/imageedit_4_6859517485.png);
+    background-size: cover;
+    background-blend-mode: saturation;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 50px;
+}
+/* HEADER */
+
+
+.logo{
+   display: flex;
+   gap: 10px;
+}
+.head_container_mobile{
+    display: none;
+}
+.head_container{
+    height: 90px;
+    position: fixed;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgba(130, 44, 44, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+.head_container_scroll{
+    height: 180px;
+    position: fixed;
+    top: 0;
+    height: 90px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgba(60, 8, 8, 0.5);
+    background-image:linear-gradient(rgb(0, 7, 60),rgb(86, 0, 86));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    transition: .3s;
+}
+nav ul li a {
+    transition: .3s;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    transform: translate();
+    color:navy;
+}
+nav ul a{
+    text-decoration: none;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    cursor: pointer;
+}
+.social i{
+    height: 25px;
+    width: 25px;
+}
+audio::-webkit-media-controls-panel{
+    border: none;
+    background-color:purple;
+}
+
+
+/* MAIN */
+
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+.content{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap: 40px;
+    padding-top: 90px;
+}
+.content h1{
+    font-size:50px;
+    font-weight: bold;
+}
+.content p{
+    color:#C5AFD9;
+    font-weight: 700;
+}
+.artist_info{
+    display: flex;
+    gap: 20px;
+}
+.artist_info p::first-line{
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+.artist_info p{
+    color:white;
+    font-size:16px;
+    line-height: 30px;
+}
+p i{
+    margin-top: 100px;
+}
+
+/* <!-- UPCOMING SHOWS --> */
+
+.upcoming_shows_mobile{
+    display: none;
+}
+section{
+    background-color: #0C0527;
+}
+.upcoming_shows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0C0527;
+    padding-top: 90px;
+    gap: 20px;
+}
+.upcoming_shows > p{
+    color: #C5AFD9;
+    font-weight: 700;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.buy_tikets{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
+}
+.buy_tikets > p::after{
+    content: '20:30';
+    margin-left: 80px;
+}
+.buy_tikets button{
+    width: 190px;
+    background-image:radial-gradient(#C01678, #5F21A5);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s;
+    border: none;
+}
+.buy_tikets button:hover{
+    box-shadow: 0px 0px 57px 12px rgba(151,170,227,0.75);
+}
+.section_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.section_photo p:first-child::first-line {
+    font-size:45px;
+    font-weight: bold;
+}
+
+.section_photo p:nth-child(3)::first-line{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.featured_photo{
+    width: 40%;
+}
+.featured_photo img{
+    width: 100%;
+}
+
+/* <!-- FEATURED_ALBUMS --> */
+
+.featured_albums{
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+}
+.featured_photo{
+    width: 40%;
+}
+.featured_photo img{
+    width: 100%;
+}
+.audio{
+    width: 60%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #27203F;
+    padding: 30px;
+}
+.itunes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.itunes h3:first-line{
+    font-size:14px;
+    color: #C5AFD9;
+    font-weight: bold;
+}
+.itunes h3{
+    font-size:14px;
+    font-weight: bold;
+}
+.itunes button{
+    width: 150px;
+    height: 50px;
+    background-image:radial-gradient(#C01678, #5F21A5);
+    border: none;
+    cursor: pointer;
+}
+.playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 10px;
+    gap: 20px;
+}
+.play{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.play i{
+    color:#C01678;
+    cursor: pointer;
+    transition:all ease-in-out .3s;
+}
+.play i:hover{
+    color:white;
+    transform: rotateY(360deg);
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.player p{
+    font-weight: bold;
+    color:#C01678;
+}
+.now_play{
+    display: none;
+}
+.now_play_shown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+/* MUSIC / ARTISTS */
+
+.container_{
+    width: 100%;
+    display: flex;
+    padding-top: 90px;
+}
+.music , .artist{
+    width: 100%;
+    transition:1.5s;
+}
+.artist img , .music img{
+    width: 100%;
+}
+.artist:hover , .music:hover{
+    transform:rotateY(360deg);
+}
+
+/* FOOTER */
+footer{
+    height: 400px;
+}
+.footer_container{
+    padding-top: 100px;
+    width: 90%;
+    margin:0px auto;
+    display: flex;
+}
+footer p{
+    color:black;
+    font-size:14px;
+}
+
+.lists{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    width: 100%;
+}
+h4{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.lists ul li{
+    color:grey;
+    margin-top: 20px;
+    font-weight: 900;
+    list-style: none;
+}
+li button{
+    width: 150px;
+    height: 45px;
+    background-image: repeating-linear-gradient(red , purple);
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s;
+    cursor:pointer;
+    border:none;
+}
+input{
+    height: 45px;
+    width: 200px;
+    border:2px solid black;
+    color:black;
+}
+.lists ul:nth-child(4) li:nth-child(2){
+    display: flex;
+}
+
+.subscribe{
+    display: none;
+}
+
+
+
+
+
+
+

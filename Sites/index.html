@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2e18f2b45c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/media.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <script src="../JS/script.js" defer></script>
+    <div class="wrapper">
+        
+
+        <!-- HEADER -->
+        <header>
+            <div class="head_container" id="head_cont" onscroll="header_scrolled()">
+                <div class="logo">
+                    <i class="fa-solid fa-m"></i>
+                    <i class="fa-solid fa-u"></i>
+                    <i class="fa-solid fa-s"></i>
+                    <i class="fa-solid fa-i"></i>
+                    <i class="fa-solid fa-c"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">Mega Menu</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </nav>
+            </div>   
+            
+            <!-- MOBILE header -->
+
+            <div class="head_container_mobile" id="head_mob" onscroll="scroll_mob()">
+                <div class="logo">
+                    <i class="fa-solid fa-m"></i>
+                    <i class="fa-solid fa-u"></i>
+                    <i class="fa-solid fa-s"></i>
+                    <i class="fa-solid fa-i"></i>
+                    <i class="fa-solid fa-c"></i>
+                    <i class="fa-solid fa-a"></i>
+                </div>
+                <nav class="mobile_navigation" id="mobile_nav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <div class="social_mobile">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </nav>
+                <i class="fa-solid fa-bars" onclick="open_nav()"></i>
+            </div>
+        </header>
+
+
+        <!-- MAIN -->
+        <main class="container">
+            <div class="content">
+                <h1>ARTIST BIO</h1>
+                <p>Sed porta cursus enim, vitae maximus felis luctus iaculis.</p>
+                <div class="artist_info">
+                    <div class="main_photo">
+                        <img src="../Assets/main.png" alt="Girl_photo">
+                    </div>
+                    <p> Hello, It’s Michael Smithson<br><br><br>
+                        Nulla pretium tincidunt felis, nec sollicitudin mauris lobortis in.
+                        Aliquam eu feugiat ligula, laoreet efficitur nulla. Morbi nec neque porta,
+                        elementum massa at, vehicula nunc. Nulla facilisi. Donec id purus eu lectus 
+                        imperdiet varius. Curabitur consectetur nunc sem, vitae cursus enim tempor eget.
+                        Praesent pellentesque nisi urna, sit amet suscipit ligula posuere id. Aenean id 
+                        tortor vel quam ornare gravida. Phasellus luctus feugiat nunc, quis vulputate
+                        ipsum convallis quis. Integer vel nulla erat. Donec erat metus, luctus quis
+                        maximus quis, volutpat eu tellus. Interdum et malesuada fames ac ante ipsum 
+                        primis in faucibus.                 
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+        <!-- UPCOMING SHOWS -->
+        <section>
+            <div class="container">
+                <div class="upcoming_shows">
+                    <h2>UPCOMING SHOWS</h2>
+                    <p>Sed porta cursus enim, vitae maximus felis luctus iaculis</p>
+                    <div class="buy_tikets">
+                        <div class="section_photo">
+                            <p>17<br>July</p>
+                            <img src="../Assets/section_photo.png" alt="">
+                            <p>ELECTRIC CASTLE FESTIVAL<br>
+                                Cluj, Romania
+                            </p>
+                        </div>
+                        <p>At the Castle</p>
+                        <button>BUY TIKETS</button>
+                    </div>
+                    <div class="buy_tikets">
+                        <div class="section_photo">
+                            <p>23<br>July</p>
+                            <img src="../Assets/section_photo2.png" alt="">
+                            <p>ELECTRIC CASTLE FESTIVAL<br>
+                                Manhathan, NY, USA
+                            </p>
+                        </div>
+                        <p>At the Castle</p>
+                        <button>BUY TIKETS</button>
+                    </div>
+                    <div class="buy_tikets">
+                        <div class="section_photo">
+                            <p>25<br>July</p>
+                            <img src="../Assets/section_photo3.png" alt="">
+                            <p>ELECTRIC CASTLE FESTIVAL<br>
+                                Paris, France
+                            </p>
+                        </div>
+                        <p>At the Castle</p>
+                        <button>BUY TIKETS</button>
+                    </div>
+                    <div class="buy_tikets">
+                        <div class="section_photo">
+                            <p>30<br>July</p>
+                            <img src="../Assets/section_photo4.png" alt="">
+                            <p>ELECTRIC CASTLE FESTIVAL<br>
+                                Cluj, Romania
+                            </p>
+                        </div>
+                        <p>At the Castle</p>
+                        <button>BUY TIKETS</button>
+                    </div>
+                </div>
+
+                    <!-- MOBILE -->
+
+                    <div class="upcoming_shows_mobile">
+                        <h2>UPCOMING SHOWS<br></h2>
+                    <p>Sed porta cursus enim, vitae maximus felis luctus iaculis</p>
+                        <div class="buy_tikets_mobile">
+                            <p>17<br>July</p>
+                            <div class="section_photo_mobile">
+                                <img src="../Assets/section_photo.png" alt="">
+                                <p>ELECTRIC CASTLE FESTIVAL<br>
+                                    Cluj, Romania
+                            </div>
+                            <p>At the Castle</p>
+                            <button>BUY TIKETS</button>
+                        </div>
+                    </div>
+                    <div class="upcoming_shows_mobile">
+                        <h2>UPCOMING SHOWS<br></h2>
+                    <p>Sed porta cursus enim, vitae maximus felis luctus iaculis</p>
+                        <div class="buy_tikets_mobile">
+                            <p>17<br>July</p>
+                            <div class="section_photo_mobile">
+                                <img src="../Assets/section_photo2.png" alt="">
+                                <p>ELECTRIC CASTLE FESTIVAL<br>
+                                    Cluj, Romania
+                            </div>
+                            <p>At the Castle</p>
+                            <button>BUY TIKETS</button>
+                        </div>
+                    </div>
+                    <div class="upcoming_shows_mobile">
+                        <h2>UPCOMING SHOWS<br></h2>
+                    <p>Sed porta cursus enim, vitae maximus felis luctus iaculis</p>
+                        <div class="buy_tikets_mobile">
+                            <p>17<br>July</p>
+                            <div class="section_photo_mobile">
+                                <img src="../Assets/section_photo3.png" alt="">
+                                <p>ELECTRIC CASTLE FESTIVAL<br>
+                                    Cluj, Romania
+                            </div>
+                            <p>At the Castle</p>
+                            <button>BUY TIKETS</button>
+                        </div>
+                    </div>
+                    <div class="upcoming_shows_mobile">
+                        <h2>UPCOMING SHOWS<br></h2>
+                    <p>Sed porta cursus enim, vitae maximus felis luctus iaculis</p>
+                        <div class="buy_tikets_mobile">
+                            <p>17<br>July</p>
+                            <div class="section_photo_mobile">
+                                <img src="../Assets/section_photo4.png" alt="">
+                                <p>ELECTRIC CASTLE FESTIVAL<br>
+                                    Cluj, Romania
+                            </div>
+                            <p>At the Castle</p>
+                            <button>BUY TIKETS</button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+        <!-- FEATURED_ALBUMS -->
+        <section>
+            <div class="container">
+                <div class="featured_albums">
+                    <div class="featured_photo">
+                        <img src="../Assets/section_photo5.png" alt="GIRL">
+                    </div>
+                    <div class="audio">
+                        <div class="itunes">
+                            <h3>FEATURED ALBUM<br><br>
+                                Love is all Around</h3>
+                            <button onclick="open_player()">BUY IT ON ITUNES</button>
+                        </div>
+                        <div class="playlist">
+                            <div class="play">
+                                <i class="fa-solid fa-play" onclick="start()"></i>
+                                <p>Clean Bandit - ROCKABYE</p>
+                            </div>
+                            <div class="play">
+                                <i class="fa-solid fa-play" onclick="start1()"></i>
+                                <p>Eminem - Mockingbird</p>
+                            </div>
+                            <div class="play">
+                                <i class="fa-solid fa-play" onclick="start2()"></i>
+                                <p>Ed Sheeran - Shape of you</p>
+                            </div>
+                            <div class="play">
+                                <i class="fa-solid fa-play" onclick="start3()"></i>
+                                <p>Rihanna - Don't stop the music</p>
+                            </div>
+                            <div class="play">
+                                <i class="fa-solid fa-play" onclick="start4()"></i>
+                                <p>Shakira - Hips don't lie</p>
+                            </div>
+                        </div>
+                        <div class="player">
+                            <div class="now_play" id="hidden">
+                                <p>Clean Bandit - ROCKABYE</p>
+                                <audio src="../Audio/clean_bandit_feat_sean_paul_and_anne-marie-rockabye.mp3" controls></audio>
+                            </div>
+                            <div class="now_play" id="hidden1">
+                                <p>Eminem - Mockingbird</p>
+                                <audio src="../Audio/eminem-mockingbird(mp3bit.cc).mp3" controls></audio>
+                            </div>
+                            <div class="now_play" id="hidden2">
+                                <p>Ed Sheeran - Shape of you</p>
+                                <audio src="../Audio/ed-sheeran-shape-of-you-drop-zone-remix(mp3bit.cc).mp3" controls></audio>
+                            </div>
+                            <div class="now_play" id="hidden3">
+                                <p>Rihanna - Don't stop the music</p>
+                                <audio src="../Audio/rihanna-dont-stop-the-music-ayur-tsyrenov-dfm-remix(mp3bit.cc).mp3" controls></audio>
+                            </div>
+                            <div class="now_play" id="hidden4">
+                                <p>Shakira - Hips don't lie</p>
+                                <audio src="../Audio/Shakira-feat-Wyclef-Jean_-_Hips-Dont-Lie.mp3" controls></audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- MUSIC / ARTISTS -->
+        <section>
+            <div class="container_">
+                <div class="music">
+                    <img src="../Assets/section3_photo.png" alt="MUSIC">
+                </div>
+                <div class="artist">
+                    <img src="../Assets/section3.1_photo.png" alt="ARTIST">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer_container">
+                <div class="footer_logo">
+                    <img src="../Assets/footer logo.png" alt="">
+                    <p>Copyright ©2022 All rights reserved | This template is <br>
+                    made with  by Colorlib</p>
+                </div>
+                <div class="lists">
+                    <ul>
+                        <li><h4>About</h4></li>
+                        <li>Links</li>
+                        <li>Social</li>
+                        <li>Subscribe</li>
+                        <li>Careers</li>
+                    </ul>
+                    <ul>
+                        <li><h4>About</h4></li>
+                        <li>Links</li>
+                        <li>Social</li>
+                        <li>Subscribe</li>
+                        <li>Careers</li>
+                    </ul>
+                    <ul>
+                        <li><h4>About</h4></li>
+                        <li>Links</li>
+                        <li>Social</li>
+                        <li>Subscribe</li>
+                        <li>Careers</li>
+                    </ul>
+                    <ul>
+                        <li><h4>SUBSCRIBE</h4></li>
+                        <li>
+                            <form action="">
+                                <input type="email" placeholder="email">
+                            </form>
+                            <button>SUBSCRIBE</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="subscribe">
+                    <h4>SUBSCRIBE</h4>
+                    <form action="">
+                        <input type="email" placeholder="email">
+                        <button>SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
